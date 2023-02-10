@@ -1,0 +1,16 @@
+.box-ouv {
+    width: max-content;
+    padding: 0px;
+    display: grid;
+    grid-template-columns: 150px 200px 250px 100px 250px 100px  100px;
+    
+}
+
+.liste-box{
+    display: grid;
+    overflow: hidden;
+}
+
+::-webkit-scrollbar {
+    width: 20px;
+}

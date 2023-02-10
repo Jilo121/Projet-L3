@@ -1,0 +1,60 @@
+.todo-input {
+    width: 200px;
+    height: 30px;
+    padding-left: 20px;
+    border: solid #05797C;
+    margin-bottom: 10px;
+}
+
+.todo-row{
+    width: 380px;
+    height: 42px;
+    display: grid;
+    grid-template-columns: 250px 150px;
+    align-items: center;
+    margin-bottom: 10px;
+    border-bottom: #8d8d8d solid 1px;
+}
+.todo-row:hover{
+    border-bottom: #05797C solid 1px;
+    transition: 300ms;
+}
+
+.icons{
+    display: grid;
+    grid-template-columns: 50px 100px;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.delete-icon{
+    width: 50px;
+    height: 40px;
+    background: none;
+    cursor: pointer;
+}
+.delete-icon:hover {
+    background: #e00000;
+    transition: 300ms;
+}
+
+.edit-icon {
+    width: 60px;
+    height: 40px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+.edit-icon:hover{
+    background: #05797C;
+    transition: 300ms;
+}
+
+.todo-button {
+    padding-left: 20px;
+    padding-right: 20px;
+    width: max-content;
+    height: 40px;
+    background: #05797C;
+    border: none;
+}

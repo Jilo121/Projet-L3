@@ -1,0 +1,33 @@
+.menu-list {
+    display: grid;
+}
+
+.active {
+    color: #ffffff;
+}
+
+li {
+    height: 30px;
+    width: 170px;
+}
+
+ul {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+.left-menu {
+    position: fixed;
+    top: 70px;
+}
+
+.right-part{
+    margin-top: 80px;
+    margin-left: 250px;
+}
+
+.titre3 {
+    width: max-content;
+}

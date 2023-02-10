@@ -1,0 +1,156 @@
+
+
+/* p{
+    display: none;
+} */
+
+/* HEADER */
+/* logo */
+.logo{
+    width: 100px;
+    height: 50px;
+}
+.left-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    color: #05797C;
+
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top :0;
+    left: 0;
+    right: 0;
+}
+
+/* photo de profil */
+.profil{
+    width: 50px;
+}
+
+
+/* BODY */
+/* .body{
+    display: flex;
+    align-items;
+} */
+
+/* MENU */
+.menu{
+    border: none;
+}
+.top-menu{
+    justify-content: end;
+    display: grid;
+    grid-template-columns: repeat(4, 150px);
+}
+
+h1 , h3 , p {
+    background-color: none;
+}
+
+/* BTN */
+.btn{
+    padding: 10px;
+    cursor: pointer;
+}
+
+.header-btn{
+    border: none;
+    color: #05797C;
+}
+
+/* Search */
+.search-div{
+    display: grid;
+    grid-template-columns: 230px 70px;
+
+}
+
+.search{
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.header-btn:hover{
+    padding-left: 0px;
+    padding-right: 0px;
+    border-bottom: #05797C solid 1px;
+    transition: 500ms;
+    font-size: medium;
+}
+
+.search-btn{
+    width: 70px;
+    height: 30px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: none;
+    background: #05797C;
+}
+
+/* left button */
+
+.left-btn{
+    border: none;
+    text-align: left;
+    color: #5a5a5a;
+    text-decoration: none;
+}
+.left-btn:hover{
+    color: #ffffff;
+}
+.left-btn:active{
+    color: #ffffff;
+}
+
+
+/* Element */
+.element-menu{
+    display: grid;
+    width: 200px;
+}
+.recent > .grid{
+    max-width: 1200px;
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 120px);
+    column-gap: 20px;
+}
+
+.chantier > img {
+    width: 100px;
+    height: 100px;
+}
+
+.chantier {
+    border: solid #5a5a5a 1px;
+    padding: 5px;
+    width: 115px;
+    margin-bottom: 10px;
+}
+
+.chantier:hover{
+    border: solid #05797C 1px;
+    background-color: #1b1b1b;
+    cursor: pointer;
+}
+
+.left-menu{
+    width: 250px;
+    border-right: solid #5a5a5a 1px;
+}
+
+.body {
+    display: grid;
+    grid-template-columns: 300px 1200px;
+}
